@@ -1,0 +1,170 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  
+}
+
+.btn-primary{
+    padding: 20px 25px;
+    margin: 32px 0px;
+    background-color:#FF900E;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 20px;
+
+}
+
+header{
+    background-color:rgba(255,144,14,0.10 ) ;
+    padding: 0px 100px;
+}
+li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+nav>ul{
+    display: flex;
+    gap: 2rem;
+    
+}
+li{
+    
+    list-style: none;
+   
+    font-size: 1rem;
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title, .middle-title{
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+
+/* header banner  */
+.banner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+.banner-content{
+    max-width: 70%;
+    text-align: center;
+    margin : 0 auto;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 4rem;
+
+}
+
+p{
+    color: grey;
+    
+}
+
+
+
+.banner > img{
+
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+
+/* middle section styles  */
+.middle{
+    display: flex;
+    margin:50px 200px;
+    align-items: center;
+}
+
+.collage {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.collage img{
+    width: 100%;
+    margin: 5px;
+    
+}
+.middle-text{
+    width: 50%;
+    margin: 50px;
+
+}
+
+span{
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FF900E;
+}
+
+
+
+@media screen and (max-width : 576px) {
+
+    header{
+       
+       padding: 10px;
+    }
+    nav , {
+        
+        flex-direction: column;
+        
+    }
+    .banner-title{
+        font-size: 3rem;
+    
+    }
+
+    .banner img{
+        width: 90%;
+        padding: 20px;
+    }
+
+    .middle{
+        margin: 10px;
+        flex-direction: column-reverse;
+    }
+
+    
+.collage {
+    
+    width: 100%;
+   
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.middle-text{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+
+}
+   
+
+}
+
+

@@ -125,9 +125,9 @@ span{
 
 .feature-section{
     display: flex;
-    margin: 100px 200px;
-    gap: 50px;
-    align-items: center;
+    margin: 40px 200px;
+    gap: 100px;
+   align-items: center;
 }
 
 .features{
@@ -138,6 +138,7 @@ span{
 }
 
 .girl img{
+    margin-top: 50px;
     width: 100%;
 }
 
@@ -149,6 +150,31 @@ span{
 
 .card h3{
     font-weight: 700;
+}
+
+.ten-years{
+    background-color: #FF900E;
+    text-align: center;
+    width: 342px;
+    padding: 25px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 100px;
+    right: 45px;
+
+}
+.ten-years h2{
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    margin: 20px 0;
+
+}
+.ten-years h4{
+    font-weight: 500;
+    font-size: 1rem;
+    color: white;
+    margin: 0;
 }
 
 /* facts section styles  */
@@ -193,6 +219,15 @@ span{
     justify-content: space-around;
     margin: 70px 100px;
    
+}
+
+
+footer {
+    background-color:rgba(255,144,14,0.10 ) ;
+   margin: 50px 200px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
 }
 @media screen and (max-width : 576px) {
 
@@ -260,6 +295,22 @@ span{
     
    gap: 40px;
 }
+
+.ten-years{
+    background-color: #FF900E;
+    text-align: center;
+    width: 202px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 100px;
+   left: 50px;
+
+}
+footer {
+    
+   margin: 10px 10px;
+   padding: ;
    
 
 }

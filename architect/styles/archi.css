@@ -310,9 +310,13 @@ footer {
 footer {
     
    margin: 10px 10px;
-   padding: ;
+
    
 
 }
 
+footer p{
+    font-size: 10px;
+}
 
+}
